@@ -7,7 +7,7 @@
 //Teste Moises
 
 
-//DOTAS AS VARIAVES DA DUAS CARTA 
+//TODAS AS VARIAVES DA DUAS CARTA 
 int main() {
     int CARTA1;
     int CARTA2;
