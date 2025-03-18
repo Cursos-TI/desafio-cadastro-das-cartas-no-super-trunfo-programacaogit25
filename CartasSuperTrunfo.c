@@ -12,7 +12,7 @@ int main() {
     int CARTA1;
     int CARTA2;
     char ESTADO1;
-    char ESTADO;
+    char ESTADO2;
     char CODIGO1[20];
     char CODIGO2[20];
     char CIDADE1[20];
@@ -34,12 +34,12 @@ int main() {
     getchar();  // Limpar o buffer do teclado após o scanf para capturar o próximo char corretamente
     printf("ESTADO1: \n");
     scanf(" %c", &ESTADO1);  
-    printf("ESTADO: \n");
-    scanf(" %c", &ESTADO);  
+    printf("ESTADO2: \n");
+    scanf(" %c", &ESTADO2);  
     printf("CODIGO DA CARTA1: \n");
-    scanf(" %s", &CODIGO1); 
+    scanf(" %s", CODIGO1); 
     printf("CODIGO DA CARTA2: \n");
-    scanf(" %s", &CODIGO2);  
+    scanf(" %s", CODIGO2);  
     printf("NOME DA CIDADE1: \n");
     scanf(" %s", CIDADE1);  
     printf("NOME DA CIDADE2: \n");
@@ -74,7 +74,7 @@ int main() {
  // Exibir os dados para conferência
    printf("\nDados da Carta2:\n");
    printf("CARTA2: %d\n", CARTA2);
-   printf("ESTADO: %c\n", ESTADO);
+   printf("ESTADO: %c\n", ESTADO2);
    printf("CODIGO DA CARTA2: %s\n", CODIGO2);
    printf("CIDADE2: %s\n", CIDADE2);
    printf("POPULACAO2: %d\n", POPULACAO2);
